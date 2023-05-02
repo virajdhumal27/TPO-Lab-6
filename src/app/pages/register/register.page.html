@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <div class="flex-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color="success">Registration</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-input label="Name" labelPlacement="floating" type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Email" labelPlacement="floating" type="email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Contact" labelPlacement="floating" type="number"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Roll No" labelPlacement="floating" type="number"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="HSC" labelPlacement="floating" type="number"></ion-input>
+          </ion-item>
+        </ion-list>
+        <ion-button color="dark" fill="clear" size="full">Forgot email/password</ion-button>
+        <ion-button color="success" size="full" (click) = "home()">Register</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
