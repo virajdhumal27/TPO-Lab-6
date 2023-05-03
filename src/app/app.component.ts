@@ -9,7 +9,7 @@ export class AppComponent {
     { title: 'Home', url: '/folder/home', icon: 'home' },
     { title: 'Outbox', url: '/folder/outbox', icon: 'paper-plane' },
     { title: 'Upload Resume', url: '/folder/resume', icon: 'clipboard' },
-    { title: 'Placement Cell', url: '/folder/placement', icon: 'earth' },
+    { title: 'Placement Cell', url: 'placement', icon: 'earth' },
   ];
   public settings = [
     { title: 'Profile', url: '/folder/profile', icon: 'person-circle' },

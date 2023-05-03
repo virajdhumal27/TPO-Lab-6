@@ -18,7 +18,7 @@ const routes: Routes = [
   {
     path: 'placement',
     loadChildren: () => import('./pages/placement/placement.module').then( m => m.PlacementPageModule)
-  }
+  },
 ];
 
 @NgModule({

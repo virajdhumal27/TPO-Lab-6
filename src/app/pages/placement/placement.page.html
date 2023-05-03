@@ -2,7 +2,7 @@
   <ion-toolbar>
     <ion-buttons>
       <ion-menu-button menu="main-menu"></ion-menu-button>
-      <ion-title>placement</ion-title>
+      <ion-title>Placement Cell</ion-title>
     </ion-buttons>
 
   </ion-toolbar>
@@ -11,7 +11,38 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">placement</ion-title>
+      <ion-title size="large">Placement Cell</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-accordion-group expand="inset">
+    <ion-accordion value="first" class="accordian">
+      <ion-item slot="header" color="light" class="flex-img-center">
+        <img src="https://s14363.pcdn.co/wp-content/uploads/2020/08/0eb401f9019e0c90e1b7e49a38052daf.png" alt="" class="companyLogo">
+        <img src="https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1660621842/1660621841.jpg" alt="" class="companyBuilding">
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second" class="accordian">
+      <ion-item slot="header" color="light">
+        <ion-icon name="logo-google"></ion-icon>
+        <ion-label>GOOGLE</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Second Content
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third" class="accordian">
+      <ion-item slot="header" color="light">
+        <ion-icon name="logo-netflix"></ion-icon>
+        <ion-label>Netflix</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Third Content
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+
 </ion-content>
